@@ -1,6 +1,2 @@
 #!/bin/bash
-for html_file in *.html; do
-    if [ ! -f "../$html_file" ] || [ "$html_file" -nt "../$html_file" ]; then
-        cp -v "$html_file" ../
-    fi
-done
+for f in *.html; do [ ! -f "../$f" ] || [ "$f" -nt "../$f" ] && cp -v "$f" ../; done
