@@ -1,1 +1,1 @@
-El script pwd sirve para mostrar la ruta del directorio actual en donde se esta trabajando.
+Este script (cd ~) sirve para regresar la ruta inicial de los directorios que hayas creado  
